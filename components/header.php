@@ -1,3 +1,4 @@
+<?php $baseURL = 'http://localhost:81/finderorg_github/'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,11 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo $baseURL; ?>assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <?php $baseURL = 'http://localhost/finderorg_new/'; ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Thirteenth navbar example">
         <div class="container-fluid">
             <a class="navbar-brand d-lg-none" href="#">Finder Org</a>
